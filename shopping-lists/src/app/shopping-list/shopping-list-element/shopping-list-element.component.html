@@ -1,0 +1,8 @@
+
+  <div >
+    <ul class="list-group" *ngFor="let item of items">
+        <li class="list-group-item">{{item.name}}</li>
+        <button class="btn btn-danger" (click)="deleteItem(item.id)">REMOVE</button>
+        <hr>
+    </ul>
+</div>
